@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+    background-color: #09151f;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.navbar-nav li {
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-size: 1.1 em !important;
+}
+
+.carousel-inner {
+    height: 500px;
+}
+
+.carousel-inner img {
+    height: 100%;
+}
+
+.search-inp{
+    background: transparent;
+    color: white;
+}
+::placeholder {
+    color: white;
+    font-size: 14px;
+}
+
+    
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-80%);
+    text-shadow: 1px 1px 10px #000;
+}
+
+
+
+.main-modal {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    bottom: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+.inner-modal {
+    width: 500px;
+    height: 200px;
+    background-color: #ffffff;
+    margin: auto;
+    text-align: center;
+}
+.close{
+    text-align: end;
+}
+.part-one {
+    display: flex;
+}
+
+.part-two {
+    display: flex;
+}
+/* width="500" height="500" style="object-fit: contain;" */
+
+.im-1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.jumbotron {
+    padding: 1em;
+    border-radius: 0;
+  }
+
+.padding {
+    padding-bottom: 2em;
+}
+
+.alert {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2em;
+}
+
+.alert hr {
+    border-top: 2px solid #f0f0f0;
+    width: 95%;
+    margin-top: 0.3em;
+    margin-bottom: 1em;
+}
+
+.fa-code {color: #e54d26;}
+.fa-bold {color: #563d7c;}
+.fa-css3 {color: #2163af;}
+
+.fa-code, .fa-bold, .fa-css3 {
+    font-size: 4em;
+    margin: 1em;
+}
+
+.footer li{
+    margin: 2px;
+  }
+  
+  .footer {
+    background-color: #0f283e;
+    border-top: 1px solid #1e374b;
+    width: 100%;
+    font-size: 14px;
+  }
+  .footer__item li{
+    padding-right: 5px;
+  }
+  
+  .footer__item{
+    background-color: transparent;
+  }
+  
+  .footer .d-flex{
+    width: 100%;
+  }
+
+  @media (max-width: 450px) {
+    .carousel-caption .display-2 {
+        font-size: 3em;
+    }
+}
+@media (max-width: 450px) {
+    .im-1{
+        width: 50%;
+        height: 50%;
+    }
+}
+
+@media (max-width: 900px) {
+    .part-one{
+        display: wrap;
+    }
+}
+
+@media (min-width: 1100px) {
+    .carousel-inner img {
+        width: 100%;
+    }
+}
